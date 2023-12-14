@@ -1,0 +1,183 @@
+.kiet {
+    border: 2px solid red;
+    border-radius: 25px;
+}
+
+.oder__btn--cancel button {
+    border-radius: 20px;
+    background-color: rgb(194, 58, 58);
+    color: rgb(214, 210, 210);
+}
+
+.huydon,
+.thongtin,
+.donhang,
+.tongquan {
+    border-bottom: 2px solid white;
+}
+
+.huydon h3,
+.thongtin h4 {
+    color: white;
+    font-weight: bold;
+}
+
+.huydon h4,
+.thongtin h6,
+.text h6,
+.tongquan h5 {
+    color: grey;
+}
+
+.thongtin i {
+    color: red;
+}
+
+.img-donhang img {
+    width: 100px;
+}
+
+.text h4 {
+    color: white;
+    font-weight: bold;
+}
+
+.chat a,
+.tongquan h4 {
+    color: white;
+}
+
+.tongquan .tong {
+    font-weight: bold;
+    color: black;
+}
+
+.tongquan .col-4 {
+    margin-top: 60px;
+}
+
+
+#myBtn .Nam,
+
+#myBtn .Nam {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#myBtn .btn-thaydoi {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#myBtn {
+    max-width: 960px;
+    display: flex;
+    justify-content: center;
+    color: #333;
+
+}
+
+.btn-huydon {
+    padding: 15px 25px;
+    border: 1px solid #333;
+    display: inline-block;
+    overflow: hidden;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    width: 267.56px;
+    text-align: center;
+
+}
+
+.btn-huydon::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: red;
+    left: -100%;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.btn-huydon:hover::before {
+    left: 0;
+}
+
+.btn span {
+    z-index: 10;
+}
+
+
+.btn-thaydoi {
+    padding: 15px 25px;
+    border: 1px solid #333;
+    display: inline-block;
+    overflow: hidden;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+
+}
+
+.btn-thaydoi::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: green;
+    left: -100%;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.btn-thaydoi:hover::before {
+    left: 0;
+}
+
+.btn span {
+    z-index: 10;
+}
+
+.btn-submit {
+    padding: 15px 25px;
+    border: 1px solid #333;
+    display: inline-block;
+    overflow: hidden;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+
+}
+
+.btn-submit::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: green;
+    left: -100%;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.btn-submit:hover::before {
+    left: 0;
+}
+
+.btn span {
+    z-index: 10;
+}
+
+
+
+.btn span {
+    z-index: 10;
+}
